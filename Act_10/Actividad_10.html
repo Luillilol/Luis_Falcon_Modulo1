@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para la Universidad</title>
+</head>
+<body>
+    <form action="./Act10.php" method="POST">
+        <fieldset style="width: 600px; background-color: aquamarine;">
+            <legend>Solicitud ingreso a la Universidad</legend>
+                <label for="NOMBRE">Nombre(s):</label><input type="text" name="Nombre" id="NOMBRE" required><br><br>
+                <label for="APEP">Apellido paterno:</label><input type="text" name="apellidopat" id="APEP" required><br><br>
+                <label for="APEM">Apellido materno:</label><input type="text" name="apellidomat" id="APEM" required><br><br>
+                Sexo: <input type="radio" name="Sexo" id="HOM" value="Hombre" required><label for="HOM">Hombre</label>
+                <input type="radio" name="Sexo" id="MUJ" value="Mujer"><label for="MUJ">Mujer</label> <br><br>
+                <label for="EDAD">Edad</label><input type="number" name="Edad" id="EDAD" min="16" max="100"><br><br>
+                <label for="GMAIL">Correo electrónico</label> <input type="email" name="gmail" id="GMAIL" required> <br><br>
+                <label for="TEL">Teléfono: </label> <input type="number" name="telefono" id="TEL" required><br><br>
+                <label for="CEL">Celular: </label> <input type="number" name="celular" id="CEL" required> <br><br>
+                Escuela de procedencia:
+                <select name="Procedencia">
+                    <option value="Escuela Nacional Preparatoria" selected>Escuela Nacional Preparatoria</option>
+                    <option value="Instituto Politécnico Nacional">Instituto Politécnico Nacional</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <br><br>
+                <label for="PROM">Promedio: </label> <input type="number" name="promedio" id="PROM" min="0" max="10" required> <br><br>
+                <label for="PRIMOPT">Primera opción</label> <input type="text" name="PrimOpt" id="PRIMOPT" required><br><br>
+                <label for="SECOPT">Segunda opción</label> <input type="text" name="SecOpt" id="SECOPT" required><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar"> 
+        </fieldset>
+    </form>    
+</body>
+</html>

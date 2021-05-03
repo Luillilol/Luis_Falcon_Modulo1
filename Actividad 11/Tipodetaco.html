@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo de taco </title>
+</head>
+<body>
+    <form action="TestDeTaco.php" method="POST">
+        <fieldset style="width: 600px; background-color: yellow;">
+            <legend>¿Qué tipo de taco eres?</legend>
+            <h3>1. Te gusta la carne?</h3>
+                                                                            <!-- el For del label es para unirlo con la opción del imput, debe de ser igual al id del input-->
+                <input type="radio" name= "Pregunta1" id="p1r1" value="A" required> <label for="p1r1">Sí</label><br>
+                <input type="radio" name= "Pregunta1" id="p1r2" value="B"> <label for="p1r2">Depende</label><br> 
+                <input type="radio" name= "Pregunta1" id="p1r3" value="C"> <label for="p1r3">Maso</label><br>
+                <input type="radio" name= "Pregunta1" id="p1r4" value="D"> <label for="p1r4">No</label><br>
+            
+            <br>
+            <h3>2. ¿Dónde prefieres comer?</h3>
+                <input type="radio" name= "Pregunta2" id="p2r1" value="A" required> <label for="p2r1">Donde el hambre me detenga</label><br>
+                <input type="radio" name= "Pregunta2" id="p2r2" value="B"> <label for="p2r2">Prefiero pedir comida a domicilio</label><br>
+                <input type="radio" name= "Pregunta2" id="p2r3" value="C"> <label for="p2r3">En un restaurante con las mejores medidas de sanidad</label><br>
+                <input type="radio" name= "Pregunta2" id="p2r4" value="D"> <label for="p2r4">En donde ofrecen alternativas veganas</label><br>
+            <br>
+            <h3>3. Prefieres tomar...</h3>
+                <input type="radio" name= "Pregunta3" id="p3r1" value="A"required> <label for="p3r1"> Un boing de mango</label><br>
+                <input type="radio" name= "Pregunta3" id="p3r2" value="B"> <label for="p3r2">Una cerveza bien muerta</label><br>
+                <input type="radio" name= "Pregunta3" id="p3r3" value="C"> <label for="p3r3">Coca-cola</label><br>
+                <input type="radio" name= "Pregunta3" id="p3r4" value="D"> <label for="p3r4">Agua de chia</label><br>
+            <br>
+            <h3>4. ¿A qué hora te gusta comer tacos?</h3>
+                <input type="radio" name= "Pregunta4" id="p4r1" value="A"required> <label for="p4r1">En la tardecita</label><br>
+                <input type="radio" name= "Pregunta4" id="p4r2" value="B"> <label for="p4r2">En la mañana</label><br>
+                <input type="radio" name= "Pregunta4" id="p4r3" value="C"> <label for="p4r3">En la noche</label><br>
+                <input type="radio" name= "Pregunta4" id="p4r4" value="D"> <label for="p4r4">A las 3 de la mañana</label><br>
+            <br>
+            <h3>5. ¿Qué salsa le pones a tus tacos?</h3>
+                <input type="radio" name= "Pregunta5" id="p5r1" value="A"required> <label for="p5r1">Verde</label><br>
+                <input type="radio" name= "Pregunta5" id="p5r2" value="B"> <label for="p5r2">Roja</label><br>
+                <input type="radio" name= "Pregunta5" id="p5r3" value="C"> <label for="p5r3">Naranja(de habanero )</label><br>
+                <input type="radio" name= "Pregunta5" id="p5r4" value="D"> <label for="p5r4">No me gusta la salsa</label><br>
+            <br>
+           <h3>6. Predieres los tacos con...?</h3>
+                <input type="radio" name= "Pregunta6" id="p6r1" value="A"required> <label for="p6r1">Tortilla grasienta</label><br>
+                <input type="radio" name= "Pregunta6" id="p6r2" value="B"> <label for="p6r2">Doble tortilla</label><br>
+                <input type="radio" name= "Pregunta6" id="p6r3" value="C"> <label for="p6r3">Tortilla de harina</label><br>
+                <input type="radio" name= "Pregunta6" id="p6r4" value="D"> <label for="p6r4">Tortilla de lechuga</label><br> 
+            <br>
+           <h3>7. ¿Qué tipo de carne prefieres?</h3>
+                <input type="radio" name= "Pregunta7" id="p7r1" value="A"required> <label for="p7r1">Cerdo</label><br>
+                <input type="radio" name= "Pregunta7" id="p7r2" value="B"> <label for="p7r2">Borrego</label><br>
+                <input type="radio" name= "Pregunta7" id="p7r3" value="C"> <label for="p7r3">Res</label><br>
+                <input type="radio" name= "Pregunta7" id="p7r4" value="D"> <label for="p7r4">No como carne</label><br>
+            <br>
+            <h3>8. La mayor parte del tiempo te sientes...</h3>
+                <input type="radio" name= "Pregunta8" id="p8r1" value="A"required> <label for="p8r1">Feliz</label><br>
+                <input type="radio" name= "Pregunta8" id="p8r2" value="B"> <label for="p8r2">Con mucha energía</label><br>
+                <input type="radio" name= "Pregunta8" id="p8r3" value="C"> <label for="p8r3">Desanimado</label><br> 
+                <input type="radio" name= "Pregunta8" id="p8r4" value="D"> <label for="p8r4">Nostálgico</label><br> 
+               
+            <br>
+           <h3>9. A quién llevarías a los tacos? </h3>
+                <input type="radio" name= "Pregunta9" id="p9r1" value="A"required> <label for="p9r1">Tu novia</label><br> 
+                <input type="radio" name= "Pregunta9" id="p9r2" value="B"> <label for="p9r2">Tus compas</label><br> 
+                <input type="radio" name= "Pregunta9" id="p9r3" value="C"> <label for="p9r3">Tu familia</label><br> 
+                <input type="radio" name= "Pregunta9" id="p9r4" value="D"> <label for="p9r4">Prefieres ir solo</label><br> 
+            <br>
+            <h3>10. ¿Con qué frecuencia comes tacos?</h3>
+                <input type="radio" name= "Pregunta10" id="p10r1" value="A"required > <label for="p10r1">Una vez a la semana</label><br> 
+                <input type="radio" name= "Pregunta10" id="p10r2" value="B"> <label for="p10r2">Diario</label><br> 
+                <input type="radio" name= "Pregunta10" id="p10r3" value="C"> <label for="p10r3">Una vez al mes</label><br> 
+                <input type="radio" name= "Pregunta10" id="p10r4" value="D"> <label for="p10r4">Casi nunca</label><br>         
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset"> Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
